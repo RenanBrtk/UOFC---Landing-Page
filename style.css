@@ -345,9 +345,21 @@ footer {
         font-size: 1rem;
     }
 
+    .watch-button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px; /* Adjust spacing */
+    }
+
     .watch-button button {
-        font-size: 1rem;
-        padding: 8px 16px;
+        font-size: 1rem; /* Reduce text size */
+        padding: 10px 12px; /* Reduce padding */
+        width: auto; /* Let it adjust dynamically */
+        max-width: 90%; /* Prevent it from being too wide */
+    }
+
+    .intro-txt {
+        width: 90%; /* Prevent text from overflowing */
     }
 
     /* Cards Section */
